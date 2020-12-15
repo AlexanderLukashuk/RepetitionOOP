@@ -6,7 +6,6 @@ namespace Reiteration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
