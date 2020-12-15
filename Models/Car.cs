@@ -5,6 +5,8 @@ namespace Reiteration.Models
 {
     public class Car : ICar
     {
+        public double Weight { get; set; }
+        public double LiftingCapacity { get; set; }
         public virtual void Go()
         {
             Console.WriteLine("Car is moving");
